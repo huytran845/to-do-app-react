@@ -20,6 +20,7 @@ h1 {
 
 .tab-container {
   overflow-x: auto;
+  overflow-y: hidden; /* Added overflow hidden y to remove the immovable vertical scroll bar on tabs */
 }
 
 .tab-button {
